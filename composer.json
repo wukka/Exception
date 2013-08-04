@@ -1,0 +1,19 @@
+{
+    "name": "wukka/exception",
+    "type": "library",
+    "description": "Exception wrapper, with the ability to pass in other properties to the exception.",
+    "license": "MIT",
+    "authors": [
+        {"name": "John Loehrer", "email": "72squared@gmail.com"}
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    
+    "require-dev": {
+        "wukka/test": "dev-master"
+    },
+    "autoload": {
+        "psr-0": { "Wukka\\ShortCircuit": "lib/" }
+    }
+}
